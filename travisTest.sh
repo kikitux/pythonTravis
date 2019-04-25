@@ -11,4 +11,5 @@ if [ "${output}" == "hello" ]; then
 else
   # if output doesn't match - mr dragon is not happy
   echo BAD: Test fail
-  exit 
+  exit 1
+fi 
